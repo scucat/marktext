@@ -13,7 +13,7 @@ Preferences can be controlled and modified in the settings window or via the `pr
 | openFolderInNewWindow  | Boolean | false         | true, false                                                                                                                                                |
 | aidou                  | Boolean | true          | Enable aidou. Optional value: true, false                                                                                                                  |
 | fileSortBy             | String  | created       | Sort files in opened folder by `created` time, modified time and title.                                                                                    |
-| startUpAction          | String  | lastState     | The action after Mark Text startup, open the last edited content, open the specified folder or blank page, optional value: `lasteState`, `folder`, `blank` |
+| startUpAction          | String  | lastState     | The action after Mark Text startup, open the last edited content, open the specified folder or blank page, optional value: `lastState`, `folder`, `blank` |
 | defaultDirectoryToOpen | String  | `""`          | The path that should be opened if `startUpAction=folder`.                                                                                                  |
 | language               | String  | en            | The language Mark Text use.                                                                                                                                |
 
@@ -52,6 +52,7 @@ Preferences can be controlled and modified in the settings window or via the `pr
 | frontmatterType     | String  | `-`     | The frontmatter type: `-` (YAML), `+` (TOML), `;` (JSON) or `{` (JSON)                                                               |
 | superSubScript      | Boolean | `false` | Enable pandoc's markdown extension superscript and subscript.                                                                        |
 | footnote            | Boolean | `false` | Enable pandoc's footnote markdown extension                                                                                          |
+| sequenceTheme       | String  | `hand`  | Change the theme of [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/)                                                                                         |
 
 #### Theme
 
